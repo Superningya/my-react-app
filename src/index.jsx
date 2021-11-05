@@ -9,7 +9,6 @@ const nonce_str = 'Wm3WZYTPz0wzccnW'; // 生成签名用的随机字符串
 const jsb = ''; // 自定义测试用JSB方法名
 const params = {}; // 自定义测试用JSB方法参数
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
   const [sdk, setSdk] = useState(null);
   const [ready, setReady] = useState(false);
